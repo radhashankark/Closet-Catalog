@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="general_settings">
+        
+	<PreferenceCategory
+			android:title="General Settings" >
+
+        <Preference
+            android:key="export_items"
+            android:title="@string/exportitems"
+            android:summary="@string/exportitemssummary" />
+			
+        <Preference
+            android:key="clear_db"
+            android:title="@string/cleardb"
+            android:summary="@string/cleardbsummary" />
+		
+	</PreferenceCategory>
+	
+</PreferenceScreen>

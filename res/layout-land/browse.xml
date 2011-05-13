@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<TextView 
+		android:id="@+id/browsetitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/browsetitle"
+		android:gravity="center"
+		android:textSize="14sp"
+		android:background="#820" />
+
+	<FrameLayout
+		android:id="@+id/pictureframelayout"
+		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_below="@id/browsetitle" >
+  		
+  		<ImageView
+  			android:id="@+id/pictureframe"
+  			android:layout_below="@id/browsetitle"
+  			android:layout_width="fill_parent"
+        	android:layout_height="fill_parent" />
+  			
+  		<TextView
+  			android:id="@+id/pictureframetext"
+  			android:layout_below="@id/browsetitle"
+  			android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+  			android:text="@string/browse_picture_label"
+  			android:gravity="center"
+  			android:textSize="18sp" />
+  		
+  	</FrameLayout>
+		
+	<LinearLayout
+		android:id="@+id/footersection"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true" >
+		
+		<ImageView
+			android:id="@+id/browseprev"
+			android:src="@drawable/ic_menu_back"
+			android:clickable="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="2" 
+			android:padding="10dp" />
+			
+		<TextView
+			android:id="@+id/notes"
+			android:maxLines="2"
+			android:text="@string/notes_label"
+			android:textSize="12sp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:capitalize="sentences"
+			android:layout_weight="1" 
+			android:padding="10dp" />
+			
+		<ImageView
+			android:id="@+id/browsenext"
+			android:src="@drawable/ic_menu_forward"
+			android:clickable="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="2" 
+			android:padding="10dp" />
+	
+	</LinearLayout>
+	
+</RelativeLayout>

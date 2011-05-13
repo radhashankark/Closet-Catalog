@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- General Strings -->
+    <string name="app_name">Closet Catalog</string>
+    <string name="save_label">Save</string>
+    <string name="donate_label">Donate</string>
+    <string name="backup_label">Backup</string>
+    <string name="search_label">Search</string>
+    <string name="delete_label">Delete Item</string>
+    <string name="import_label">Import image</string>
+    <string name="addimage_label">Take Picture</string>
+    <string name="preferences_label">Settings</string>
+    <string name="quit_label">Quit</string>
+    
+<!-- Options Buttons labels -->    
+	<string name="recordbtnlabel">Record Item</string>
+	<string name="browsebtnlabel">Browse Catalog</string>
+	<string name="wishlistbtnlabel">Wishlist</string>	
+	<string name="statisticslabel">Statistics</string>
+	<string name="exitbtnlabel">Quit</string>
+	<string name="browseprev">Previous</string>
+	<string name="browsenext">Next</string>
+	
+<!-- Options Buttons labels -->    
+	<string name="recordtitle">Record an item</string>
+	<string name="browsetitle">Browse your collection</string>
+	<string name="wishlisttitle">Add to wishlist</string>
+	<string name="name_label">Name</string>	
+	<string name="category_label">Category</string>	
+	<string name="notes_label">Notes - Tap to edit</string>
+	<string name="picture_label">Tap to take a picture</string>
+	<string name="browse_picture_label">Swipe to see other images\nTap to see category</string>
+
+<!-- Settings Menu Strings -->
+	<string name="exportitems">Export saved items</string>
+	<string name="exportitemssummary">Save all items as CSV file in sdcard</string>
+	<string name="cleardb">Clear all items</string>
+	<string name="cleardbsummary">Delete all saved items. Useful to start fresh</string>
+	
+<!-- Misc Strings -->
+	<string name="banner1label">Closet</string>
+	<string name="banner2label">Catalog</string>
+	<string name="totalitemslabel">14 items in your closet</string>
+	<string name="wishlistitemslabel">3 items in your wishlist</string>
+	<string name="usecountlabel">Used 12 times so far</string>
+	
+</resources>

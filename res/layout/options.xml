@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    android:padding="5dp" 
+    android:background="#000000"
+    android:keepScreenOn="true" >
+	    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"
+	    android:layout_gravity="center"
+	    android:padding="5dp" 
+	    android:background="#000000" >
+	
+	    <TextView
+	    	android:id="@+id/banner1"
+	    	android:text="@string/banner1label"
+	    	android:textSize="38dp"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="left" />
+	
+		<TextView
+	    	android:id="@+id/banner2"
+	    	android:text="@string/banner2label"
+	    	android:textSize="38dp"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center" />
+	    	
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"
+	    android:layout_gravity="center"
+	    android:padding="10dp" 
+	    android:background="#000000" >
+	
+	    <Button
+	    	android:id="@+id/recordbutton"
+	    	android:text="@string/recordbtnlabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center" />
+	
+		<Button
+	    	android:id="@+id/browsebutton"
+	    	android:text="@string/browsebtnlabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center" />
+	    	
+	    <Button
+	    	android:id="@+id/wishlistbutton"
+	    	android:text="@string/wishlistbtnlabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center" />
+	    	
+	    <Button
+	    	android:id="@+id/exitbutton"
+	    	android:text="@string/exitbtnlabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center" />
+	    
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"
+	    android:layout_gravity="center"
+	    android:padding="8dp" 
+	    android:background="#000000" >
+	
+		<TextView
+	    	android:id="@+id/statistics"
+	    	android:text="@string/statisticslabel"
+	    	android:textSize="16sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center" />
+	    	
+	    <TextView
+	    	android:id="@+id/totalitems"
+	    	android:text="@string/totalitemslabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="left" />
+	
+		<TextView
+	    	android:id="@+id/wishlistitems"
+	    	android:text="@string/wishlistitemslabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right" />
+	    	
+	    <TextView
+	    	android:id="@+id/usecount"
+	    	android:text="@string/usecountlabel"
+	    	android:textSize="22sp"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center" />
+	    
+	</LinearLayout>	
+</LinearLayout>

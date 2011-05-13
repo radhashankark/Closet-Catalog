@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<TextView 
+		android:id="@+id/wishlisttitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/wishlisttitle"
+		android:gravity="center"
+		android:textSize="14sp"
+		android:background="#345" />
+
+	<FrameLayout
+		android:id="@+id/pictureframelayout"
+		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_below="@id/wishlisttitle" >
+  		
+  		<ImageView
+  			android:id="@+id/pictureframe"
+  			android:layout_below="@id/wishlisttitle"
+  			android:layout_width="fill_parent"
+        	android:layout_height="fill_parent" />
+  			
+  		<TextView
+  			android:id="@+id/pictureframetext"
+  			android:layout_below="@id/wishlisttitle"
+  			android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+  			android:text="@string/picture_label"
+  			android:gravity="center"
+  			android:textSize="18sp" />
+  		
+  	</FrameLayout>
+		
+	<LinearLayout
+		android:id="@+id/footersection"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true" >
+		
+		<EditText
+			android:id="@+id/notes"
+			android:maxLines="2"
+			android:text="@string/notes_label"
+			android:textSize="12sp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:capitalize="sentences"
+			android:layout_weight="1" 
+			android:padding="10dp" />
+			
+		<Spinner
+			android:id="@+id/category"
+			android:text="Category"
+			android:textSize="12sp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" 
+			android:padding="10dp" />
+	
+	</LinearLayout>
+	
+</RelativeLayout>
